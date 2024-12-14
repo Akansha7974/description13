@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://media.istockphoto.com/id/959115364/de/foto/ger%C3%A4te-und-elemente-des-kinos-mit-hintergrund-kino.jpg?s=612x612&w=0&k=20&c=PsMBeOM6SGIV0R3LGBJiJ2wJrAtOI9PwSYy_4Sg1Mj8=);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.upper{
+    height: 50%;
+    width: 100%;
+}
+img{
+    height: 350px;
+    margin:5px 6px;
+}
+.lower{
+    height: 50%;
+    width: 100%;
+}
+h1{
+    color: white;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: 80px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-shadow: 13px 13px 4px black;
+}
+.details{
+    height: 190px;
+    width: 650px;
+    background-color:#a50537;
+    position: relative;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 30px;
+    color: white;
+}
+p{
+    padding: 8px 40px ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.right{
+    height: 100px;
+    width: 250px;
+    margin: 30px;
+    background-color: #2a0405;
+    padding: 16px;
+}
+h2{
+    font-size: 18px;
+    color: rgb(226, 148, 14);
+    padding: 8px 0;
+}
